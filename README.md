@@ -4,6 +4,9 @@ Repository containing my solutions and progress on the [picoCTF](https://play.pi
 
 ![image](img/proxy-image.png)
 
+<img src="drawing.jpg" alt="drawing" width="200"/>
+
+
 ## Hard
 - [ ] b00tl3gRSA2
 
