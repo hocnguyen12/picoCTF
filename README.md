@@ -2,10 +2,7 @@
 
 Repository containing my solutions and progress on the [picoCTF](https://play.picoctf.org/) platform.
 
-![image](img/proxy-image.png)
-
-<img src="img/proxy-image.png" alt="logo" width="200"/>
-
+<img src="img/proxy-image.png" alt="logo" width="400"/>
 
 ## Hard
 - [ ] b00tl3gRSA2
