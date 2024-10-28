@@ -3,6 +3,10 @@
 ```bash
 stegseek pico.flag.png rockyou.txt
 ```
+**`rockyou.txt`** is a well-known password list with over 14 million passwords.
+
+[rockyou.txt](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
+
 
 Doesn't work because steghide/stegseek only work with jpeg images. We need to find a took that works with png images.
 
