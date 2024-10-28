@@ -1,0 +1,1889 @@
+No.     Time           Source                Destination           Protocol Length Info
+   1633 9.334169       192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      93     Standard query 0xdf26 A cGljb0NU.reddshrimpandherring.com
+
+Frame 1633: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 79
+    Identification: 0xc4ed (50413)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 65368, Dst Port: 53
+    Source Port: 65368
+    Destination Port: 53
+    Length: 59
+    Checksum: 0xfb6e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 70]
+    [Timestamps]
+    UDP payload (51 bytes)
+Domain Name System (query)
+    Transaction ID: 0xdf26
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        cGljb0NU.reddshrimpandherring.com: type A, class IN
+            Name: cGljb0NU.reddshrimpandherring.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 1634]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1634 9.388061       ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      166    Standard query response 0xdf26 No such name A cGljb0NU.reddshrimpandherring.com SOA a.gtld-servers.net
+
+Frame 1634: 166 bytes on wire (1328 bits), 166 bytes captured (1328 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 152
+    Identification: 0x3657 (13911)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x64dc [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 65368
+    Source Port: 53
+    Destination Port: 65368
+    Length: 132
+    Checksum: 0x8a01 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 70]
+    [Timestamps]
+    UDP payload (124 bytes)
+Domain Name System (response)
+    Transaction ID: 0xdf26
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        cGljb0NU.reddshrimpandherring.com: type A, class IN
+            Name: cGljb0NU.reddshrimpandherring.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 1633]
+    [Time: 0.053892000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1635 9.389117       192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      131    Standard query 0xa12d A cGljb0NU.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+
+Frame 1635: 131 bytes on wire (1048 bits), 131 bytes captured (1048 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 117
+    Identification: 0xc4ee (50414)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 65369, Dst Port: 53
+    Source Port: 65369
+    Destination Port: 53
+    Length: 97
+    Checksum: 0xfb94 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 71]
+    [Timestamps]
+    UDP payload (89 bytes)
+Domain Name System (query)
+    Transaction ID: 0xa12d
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        cGljb0NU.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: cGljb0NU.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 71]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 1636]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1636 9.439381       ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      205    Standard query response 0xa12d No such name A cGljb0NU.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com SOA dns-external-master.amazon.com
+
+Frame 1636: 205 bytes on wire (1640 bits), 205 bytes captured (1640 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 191
+    Identification: 0x365c (13916)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x64b0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 65369
+    Source Port: 53
+    Destination Port: 65369
+    Length: 171
+    Checksum: 0x6cd2 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 71]
+    [Timestamps]
+    UDP payload (163 bytes)
+Domain Name System (response)
+    Transaction ID: 0xa12d
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        cGljb0NU.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: cGljb0NU.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 71]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 1635]
+    [Time: 0.050264000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1637 9.440363       192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      109    Standard query 0x1dd2 A cGljb0NU.reddshrimpandherring.com.windomain.local
+
+Frame 1637: 109 bytes on wire (872 bits), 109 bytes captured (872 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 95
+    Identification: 0xc4ef (50415)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 65370, Dst Port: 53
+    Source Port: 65370
+    Destination Port: 53
+    Length: 75
+    Checksum: 0xfb7e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 72]
+    [Timestamps]
+    UDP payload (67 bytes)
+Domain Name System (query)
+    Transaction ID: 0x1dd2
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        cGljb0NU.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: cGljb0NU.reddshrimpandherring.com.windomain.local
+            [Name Length: 49]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 1638]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1638 9.490669       ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      184    Standard query response 0x1dd2 No such name A cGljb0NU.reddshrimpandherring.com.windomain.local SOA a.root-servers.net
+
+Frame 1638: 184 bytes on wire (1472 bits), 184 bytes captured (1472 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 170
+    Identification: 0x3667 (13927)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x64ba [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 65370
+    Source Port: 53
+    Destination Port: 65370
+    Length: 150
+    Checksum: 0xeceb [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 72]
+    [Timestamps]
+    UDP payload (142 bytes)
+Domain Name System (response)
+    Transaction ID: 0x1dd2
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        cGljb0NU.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: cGljb0NU.reddshrimpandherring.com.windomain.local
+            [Name Length: 49]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 1637]
+    [Time: 0.050306000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2042 11.870534      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      93     Standard query 0x3a30 A RntkbnNf.reddshrimpandherring.com
+
+Frame 2042: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 79
+    Identification: 0xc509 (50441)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 65500, Dst Port: 53
+    Source Port: 65500
+    Destination Port: 53
+    Length: 59
+    Checksum: 0xfb6e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 202]
+    [Timestamps]
+    UDP payload (51 bytes)
+Domain Name System (query)
+    Transaction ID: 0x3a30
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        RntkbnNf.reddshrimpandherring.com: type A, class IN
+            Name: RntkbnNf.reddshrimpandherring.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 2043]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2043 11.921106      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      166    Standard query response 0x3a30 No such name A RntkbnNf.reddshrimpandherring.com SOA a.gtld-servers.net
+
+Frame 2043: 166 bytes on wire (1328 bits), 166 bytes captured (1328 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 152
+    Identification: 0x3762 (14178)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x63d1 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 65500
+    Source Port: 53
+    Destination Port: 65500
+    Length: 132
+    Checksum: 0xb67c [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 202]
+    [Timestamps]
+    UDP payload (124 bytes)
+Domain Name System (response)
+    Transaction ID: 0x3a30
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        RntkbnNf.reddshrimpandherring.com: type A, class IN
+            Name: RntkbnNf.reddshrimpandherring.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 2042]
+    [Time: 0.050572000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2044 11.922284      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      131    Standard query 0xec57 A RntkbnNf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+
+Frame 2044: 131 bytes on wire (1048 bits), 131 bytes captured (1048 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 117
+    Identification: 0xc50a (50442)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 65501, Dst Port: 53
+    Source Port: 65501
+    Destination Port: 53
+    Length: 97
+    Checksum: 0xfb94 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 203]
+    [Timestamps]
+    UDP payload (89 bytes)
+Domain Name System (query)
+    Transaction ID: 0xec57
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        RntkbnNf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: RntkbnNf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 71]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 2045]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2045 11.971614      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      203    Standard query response 0xec57 No such name A RntkbnNf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com SOA pdns1.ultradns.net
+
+Frame 2045: 203 bytes on wire (1624 bits), 203 bytes captured (1624 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 189
+    Identification: 0x376b (14187)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x63a3 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 65501
+    Source Port: 53
+    Destination Port: 65501
+    Length: 169
+    Checksum: 0x001c [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 203]
+    [Timestamps]
+    UDP payload (161 bytes)
+Domain Name System (response)
+    Transaction ID: 0xec57
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        RntkbnNf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: RntkbnNf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 71]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 2044]
+    [Time: 0.049330000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2046 11.972605      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      109    Standard query 0xabb9 A RntkbnNf.reddshrimpandherring.com.windomain.local
+
+Frame 2046: 109 bytes on wire (872 bits), 109 bytes captured (872 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 95
+    Identification: 0xc50b (50443)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 65502, Dst Port: 53
+    Source Port: 65502
+    Destination Port: 53
+    Length: 75
+    Checksum: 0xfb7e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 204]
+    [Timestamps]
+    UDP payload (67 bytes)
+Domain Name System (query)
+    Transaction ID: 0xabb9
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        RntkbnNf.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: RntkbnNf.reddshrimpandherring.com.windomain.local
+            [Name Length: 49]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 2047]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2047 12.021881      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      184    Standard query response 0xabb9 No such name A RntkbnNf.reddshrimpandherring.com.windomain.local SOA a.root-servers.net
+
+Frame 2047: 184 bytes on wire (1472 bits), 184 bytes captured (1472 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 170
+    Identification: 0x376c (14188)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x63b5 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 65502
+    Source Port: 53
+    Destination Port: 65502
+    Length: 150
+    Checksum: 0xe787 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 204]
+    [Timestamps]
+    UDP payload (142 bytes)
+Domain Name System (response)
+    Transaction ID: 0xabb9
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        RntkbnNf.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: RntkbnNf.reddshrimpandherring.com.windomain.local
+            [Name Length: 49]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 2046]
+    [Time: 0.049276000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2444 14.503146      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      93     Standard query 0x531d A M3hmMWxf.reddshrimpandherring.com
+
+Frame 2444: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 79
+    Identification: 0xc52f (50479)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49252, Dst Port: 53
+    Source Port: 49252
+    Destination Port: 53
+    Length: 59
+    Checksum: 0xfb6e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 337]
+    [Timestamps]
+    UDP payload (51 bytes)
+Domain Name System (query)
+    Transaction ID: 0x531d
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        M3hmMWxf.reddshrimpandherring.com: type A, class IN
+            Name: M3hmMWxf.reddshrimpandherring.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 2445]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2445 14.553435      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      166    Standard query response 0x531d No such name A M3hmMWxf.reddshrimpandherring.com SOA a.gtld-servers.net
+
+Frame 2445: 166 bytes on wire (1328 bits), 166 bytes captured (1328 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 152
+    Identification: 0x391b (14619)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x6218 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49252
+    Source Port: 53
+    Destination Port: 49252
+    Length: 132
+    Checksum: 0x2cf5 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 337]
+    [Timestamps]
+    UDP payload (124 bytes)
+Domain Name System (response)
+    Transaction ID: 0x531d
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        M3hmMWxf.reddshrimpandherring.com: type A, class IN
+            Name: M3hmMWxf.reddshrimpandherring.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 2444]
+    [Time: 0.050289000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2446 14.554475      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      131    Standard query 0x3bd6 A M3hmMWxf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+
+Frame 2446: 131 bytes on wire (1048 bits), 131 bytes captured (1048 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 117
+    Identification: 0xc530 (50480)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49253, Dst Port: 53
+    Source Port: 49253
+    Destination Port: 53
+    Length: 97
+    Checksum: 0xfb94 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 338]
+    [Timestamps]
+    UDP payload (89 bytes)
+Domain Name System (query)
+    Transaction ID: 0x3bd6
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        M3hmMWxf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: M3hmMWxf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 71]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 2447]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2447 14.604708      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      203    Standard query response 0x3bd6 No such name A M3hmMWxf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com SOA pdns1.ultradns.net
+
+Frame 2447: 203 bytes on wire (1624 bits), 203 bytes captured (1624 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 189
+    Identification: 0x391f (14623)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x61ef [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49253
+    Source Port: 53
+    Destination Port: 49253
+    Length: 169
+    Checksum: 0x4012 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 338]
+    [Timestamps]
+    UDP payload (161 bytes)
+Domain Name System (response)
+    Transaction ID: 0x3bd6
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        M3hmMWxf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: M3hmMWxf.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 71]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 2446]
+    [Time: 0.050233000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2448 14.605726      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      109    Standard query 0x9e21 A M3hmMWxf.reddshrimpandherring.com.windomain.local
+
+Frame 2448: 109 bytes on wire (872 bits), 109 bytes captured (872 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 95
+    Identification: 0xc531 (50481)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49254, Dst Port: 53
+    Source Port: 49254
+    Destination Port: 53
+    Length: 75
+    Checksum: 0xfb7e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 339]
+    [Timestamps]
+    UDP payload (67 bytes)
+Domain Name System (query)
+    Transaction ID: 0x9e21
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        M3hmMWxf.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: M3hmMWxf.reddshrimpandherring.com.windomain.local
+            [Name Length: 49]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 2671]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2671 14.657185      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      184    Standard query response 0x9e21 No such name A M3hmMWxf.reddshrimpandherring.com.windomain.local SOA a.root-servers.net
+
+Frame 2671: 184 bytes on wire (1472 bits), 184 bytes captured (1472 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 170
+    Identification: 0x392a (14634)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x61f7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49254
+    Source Port: 53
+    Destination Port: 49254
+    Length: 150
+    Checksum: 0x8494 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 339]
+    [Timestamps]
+    UDP payload (142 bytes)
+Domain Name System (response)
+    Transaction ID: 0x9e21
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        M3hmMWxf.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: M3hmMWxf.reddshrimpandherring.com.windomain.local
+            [Name Length: 49]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 2448]
+    [Time: 0.051459000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3140 16.404809      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      93     Standard query 0x99dd A ZnR3X2Rl.reddshrimpandherring.com
+
+Frame 3140: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 79
+    Identification: 0xc55f (50527)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49357, Dst Port: 53
+    Source Port: 49357
+    Destination Port: 53
+    Length: 59
+    Checksum: 0xfb6e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 442]
+    [Timestamps]
+    UDP payload (51 bytes)
+Domain Name System (query)
+    Transaction ID: 0x99dd
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        ZnR3X2Rl.reddshrimpandherring.com: type A, class IN
+            Name: ZnR3X2Rl.reddshrimpandherring.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 3143]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3143 16.455193      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      166    Standard query response 0x99dd No such name A ZnR3X2Rl.reddshrimpandherring.com SOA a.gtld-servers.net
+
+Frame 3143: 166 bytes on wire (1328 bits), 166 bytes captured (1328 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 152
+    Identification: 0x3a98 (15000)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x609b [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49357
+    Source Port: 53
+    Destination Port: 49357
+    Length: 132
+    Checksum: 0x04f0 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 442]
+    [Timestamps]
+    UDP payload (124 bytes)
+Domain Name System (response)
+    Transaction ID: 0x99dd
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        ZnR3X2Rl.reddshrimpandherring.com: type A, class IN
+            Name: ZnR3X2Rl.reddshrimpandherring.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 3140]
+    [Time: 0.050384000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3144 16.456229      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      131    Standard query 0x028b A ZnR3X2Rl.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+
+Frame 3144: 131 bytes on wire (1048 bits), 131 bytes captured (1048 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 117
+    Identification: 0xc562 (50530)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49358, Dst Port: 53
+    Source Port: 49358
+    Destination Port: 53
+    Length: 97
+    Checksum: 0xfb94 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 443]
+    [Timestamps]
+    UDP payload (89 bytes)
+Domain Name System (query)
+    Transaction ID: 0x028b
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        ZnR3X2Rl.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: ZnR3X2Rl.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 71]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 3152]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3152 16.505490      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      203    Standard query response 0x028b No such name A ZnR3X2Rl.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com SOA pdns1.ultradns.net
+
+Frame 3152: 203 bytes on wire (1624 bits), 203 bytes captured (1624 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 189
+    Identification: 0x3a99 (15001)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x6075 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49358
+    Source Port: 53
+    Destination Port: 49358
+    Length: 169
+    Checksum: 0x9718 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 443]
+    [Timestamps]
+    UDP payload (161 bytes)
+Domain Name System (response)
+    Transaction ID: 0x028b
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        ZnR3X2Rl.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: ZnR3X2Rl.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 71]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 3144]
+    [Time: 0.049261000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3153 16.506492      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      109    Standard query 0x2ee1 A ZnR3X2Rl.reddshrimpandherring.com.windomain.local
+
+Frame 3153: 109 bytes on wire (872 bits), 109 bytes captured (872 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 95
+    Identification: 0xc566 (50534)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49359, Dst Port: 53
+    Source Port: 49359
+    Destination Port: 53
+    Length: 75
+    Checksum: 0xfb7e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 444]
+    [Timestamps]
+    UDP payload (67 bytes)
+Domain Name System (query)
+    Transaction ID: 0x2ee1
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        ZnR3X2Rl.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: ZnR3X2Rl.reddshrimpandherring.com.windomain.local
+            [Name Length: 49]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 3155]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3155 16.557035      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      184    Standard query response 0x2ee1 No such name A ZnR3X2Rl.reddshrimpandherring.com.windomain.local SOA a.root-servers.net
+
+Frame 3155: 184 bytes on wire (1472 bits), 184 bytes captured (1472 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 170
+    Identification: 0x3a9e (15006)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x6083 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49359
+    Source Port: 53
+    Destination Port: 49359
+    Length: 150
+    Checksum: 0x1190 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 444]
+    [Timestamps]
+    UDP payload (142 bytes)
+Domain Name System (response)
+    Transaction ID: 0x2ee1
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        ZnR3X2Rl.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: ZnR3X2Rl.reddshrimpandherring.com.windomain.local
+            [Name Length: 49]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 3153]
+    [Time: 0.050543000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3429 18.239530      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      93     Standard query 0x16f6 A YWRiZWVm.reddshrimpandherring.com
+
+Frame 3429: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 79
+    Identification: 0xc59e (50590)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49441, Dst Port: 53
+    Source Port: 49441
+    Destination Port: 53
+    Length: 59
+    Checksum: 0xfb6e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 526]
+    [Timestamps]
+    UDP payload (51 bytes)
+Domain Name System (query)
+    Transaction ID: 0x16f6
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        YWRiZWVm.reddshrimpandherring.com: type A, class IN
+            Name: YWRiZWVm.reddshrimpandherring.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 3433]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3433 18.288746      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      166    Standard query response 0x16f6 No such name A YWRiZWVm.reddshrimpandherring.com SOA a.gtld-servers.net
+
+Frame 3433: 166 bytes on wire (1328 bits), 166 bytes captured (1328 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 152
+    Identification: 0x3c2a (15402)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x5f09 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49441
+    Source Port: 53
+    Destination Port: 49441
+    Length: 132
+    Checksum: 0x417e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 526]
+    [Timestamps]
+    UDP payload (124 bytes)
+Domain Name System (response)
+    Transaction ID: 0x16f6
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        YWRiZWVm.reddshrimpandherring.com: type A, class IN
+            Name: YWRiZWVm.reddshrimpandherring.com
+            [Name Length: 33]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 3429]
+    [Time: 0.049216000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3434 18.289828      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      131    Standard query 0xe7cb A YWRiZWVm.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+
+Frame 3434: 131 bytes on wire (1048 bits), 131 bytes captured (1048 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 117
+    Identification: 0xc5a1 (50593)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49442, Dst Port: 53
+    Source Port: 49442
+    Destination Port: 53
+    Length: 97
+    Checksum: 0xfb94 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 527]
+    [Timestamps]
+    UDP payload (89 bytes)
+Domain Name System (query)
+    Transaction ID: 0xe7cb
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        YWRiZWVm.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: YWRiZWVm.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 71]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 3441]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3441 18.339039      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      205    Standard query response 0xe7cb No such name A YWRiZWVm.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com SOA dns-external-master.amazon.com
+
+Frame 3441: 205 bytes on wire (1640 bits), 205 bytes captured (1640 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 191
+    Identification: 0x3c2c (15404)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x5ee0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49442
+    Source Port: 53
+    Destination Port: 49442
+    Length: 171
+    Checksum: 0x158f [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 527]
+    [Timestamps]
+    UDP payload (163 bytes)
+Domain Name System (response)
+    Transaction ID: 0xe7cb
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        YWRiZWVm.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: YWRiZWVm.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 71]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 3434]
+    [Time: 0.049211000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3442 18.340155      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      109    Standard query 0x2a4b A YWRiZWVm.reddshrimpandherring.com.windomain.local
+
+Frame 3442: 109 bytes on wire (872 bits), 109 bytes captured (872 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 95
+    Identification: 0xc5a4 (50596)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49443, Dst Port: 53
+    Source Port: 49443
+    Destination Port: 53
+    Length: 75
+    Checksum: 0xfb7e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 528]
+    [Timestamps]
+    UDP payload (67 bytes)
+Domain Name System (query)
+    Transaction ID: 0x2a4b
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        YWRiZWVm.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: YWRiZWVm.reddshrimpandherring.com.windomain.local
+            [Name Length: 49]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 3445]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3445 18.391844      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      184    Standard query response 0x2a4b No such name A YWRiZWVm.reddshrimpandherring.com.windomain.local SOA a.root-servers.net
+
+Frame 3445: 184 bytes on wire (1472 bits), 184 bytes captured (1472 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 170
+    Identification: 0x3c31 (15409)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x5ef0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49443
+    Source Port: 53
+    Destination Port: 49443
+    Length: 150
+    Checksum: 0xd0cc [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 528]
+    [Timestamps]
+    UDP payload (142 bytes)
+Domain Name System (response)
+    Transaction ID: 0x2a4b
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        YWRiZWVm.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: YWRiZWVm.reddshrimpandherring.com.windomain.local
+            [Name Length: 49]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 3442]
+    [Time: 0.051689000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3969 20.266171      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      89     Standard query 0xbe68 A fQ==.reddshrimpandherring.com
+
+Frame 3969: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 75
+    Identification: 0xc5e2 (50658)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49549, Dst Port: 53
+    Source Port: 49549
+    Destination Port: 53
+    Length: 55
+    Checksum: 0xfb6a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 634]
+    [Timestamps]
+    UDP payload (47 bytes)
+Domain Name System (query)
+    Transaction ID: 0xbe68
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com: type A, class IN
+            Name: fQ==.reddshrimpandherring.com
+            [Name Length: 29]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 3972]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3972 20.316608      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      162    Standard query response 0xbe68 No such name A fQ==.reddshrimpandherring.com SOA a.gtld-servers.net
+
+Frame 3972: 162 bytes on wire (1296 bits), 162 bytes captured (1296 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 148
+    Identification: 0x3d7d (15741)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x5dba [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49549
+    Source Port: 53
+    Destination Port: 49549
+    Length: 128
+    Checksum: 0x9764 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 634]
+    [Timestamps]
+    UDP payload (120 bytes)
+Domain Name System (response)
+    Transaction ID: 0xbe68
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com: type A, class IN
+            Name: fQ==.reddshrimpandherring.com
+            [Name Length: 29]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 3969]
+    [Time: 0.050437000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3973 20.317649      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      127    Standard query 0xbaee A fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+
+Frame 3973: 127 bytes on wire (1016 bits), 127 bytes captured (1016 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 113
+    Identification: 0xc5e5 (50661)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49550, Dst Port: 53
+    Source Port: 49550
+    Destination Port: 53
+    Length: 93
+    Checksum: 0xfb90 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 635]
+    [Timestamps]
+    UDP payload (85 bytes)
+Domain Name System (query)
+    Transaction ID: 0xbaee
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 67]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 3981]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3981 20.368147      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      199    Standard query response 0xbaee No such name A fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com SOA pdns1.ultradns.net
+
+Frame 3981: 199 bytes on wire (1592 bits), 199 bytes captured (1592 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 185
+    Identification: 0x3d83 (15747)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x5d8f [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49550
+    Source Port: 53
+    Destination Port: 49550
+    Length: 165
+    Checksum: 0x9ab0 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 635]
+    [Timestamps]
+    UDP payload (157 bytes)
+Domain Name System (response)
+    Transaction ID: 0xbaee
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 67]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 3973]
+    [Time: 0.050498000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3982 20.369626      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      105    Standard query 0x4068 A fQ==.reddshrimpandherring.com.windomain.local
+
+Frame 3982: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 91
+    Identification: 0xc5e9 (50665)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49551, Dst Port: 53
+    Source Port: 49551
+    Destination Port: 53
+    Length: 71
+    Checksum: 0xfb7a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 636]
+    [Timestamps]
+    UDP payload (63 bytes)
+Domain Name System (query)
+    Transaction ID: 0x4068
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: fQ==.reddshrimpandherring.com.windomain.local
+            [Name Length: 45]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 3984]
+
+No.     Time           Source                Destination           Protocol Length Info
+   3984 20.420054      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      180    Standard query response 0x4068 No such name A fQ==.reddshrimpandherring.com.windomain.local SOA a.root-servers.net
+
+Frame 3984: 180 bytes on wire (1440 bits), 180 bytes captured (1440 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 166
+    Identification: 0x3d89 (15753)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x5d9c [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49551
+    Source Port: 53
+    Destination Port: 49551
+    Length: 146
+    Checksum: 0xb503 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 636]
+    [Timestamps]
+    UDP payload (138 bytes)
+Domain Name System (response)
+    Transaction ID: 0x4068
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: fQ==.reddshrimpandherring.com.windomain.local
+            [Name Length: 45]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 3982]
+    [Time: 0.050428000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   4361 22.481648      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      89     Standard query 0xa740 A fQ==.reddshrimpandherring.com
+
+Frame 4361: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 75
+    Identification: 0xc626 (50726)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49669, Dst Port: 53
+    Source Port: 49669
+    Destination Port: 53
+    Length: 55
+    Checksum: 0xfb6a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 754]
+    [Timestamps]
+    UDP payload (47 bytes)
+Domain Name System (query)
+    Transaction ID: 0xa740
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com: type A, class IN
+            Name: fQ==.reddshrimpandherring.com
+            [Name Length: 29]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 4364]
+
+No.     Time           Source                Destination           Protocol Length Info
+   4364 22.532034      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      162    Standard query response 0xa740 No such name A fQ==.reddshrimpandherring.com SOA a.gtld-servers.net
+
+Frame 4364: 162 bytes on wire (1296 bits), 162 bytes captured (1296 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 148
+    Identification: 0x3ee6 (16102)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x5c51 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49669
+    Source Port: 53
+    Destination Port: 49669
+    Length: 128
+    Checksum: 0xb014 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 754]
+    [Timestamps]
+    UDP payload (120 bytes)
+Domain Name System (response)
+    Transaction ID: 0xa740
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com: type A, class IN
+            Name: fQ==.reddshrimpandherring.com
+            [Name Length: 29]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 4361]
+    [Time: 0.050386000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   4365 22.533184      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      127    Standard query 0x683a A fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+
+Frame 4365: 127 bytes on wire (1016 bits), 127 bytes captured (1016 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 113
+    Identification: 0xc629 (50729)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49670, Dst Port: 53
+    Source Port: 49670
+    Destination Port: 53
+    Length: 93
+    Checksum: 0xfb90 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 755]
+    [Timestamps]
+    UDP payload (85 bytes)
+Domain Name System (query)
+    Transaction ID: 0x683a
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 67]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 4373]
+
+No.     Time           Source                Destination           Protocol Length Info
+   4373 22.582748      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      199    Standard query response 0x683a No such name A fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com SOA pdns1.ultradns.net
+
+Frame 4373: 199 bytes on wire (1592 bits), 199 bytes captured (1592 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 185
+    Identification: 0x3ee8 (16104)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x5c2a [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49670
+    Source Port: 53
+    Destination Port: 49670
+    Length: 165
+    Checksum: 0xeeec [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 755]
+    [Timestamps]
+    UDP payload (157 bytes)
+Domain Name System (response)
+    Transaction ID: 0x683a
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com: type A, class IN
+            Name: fQ==.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+            [Name Length: 67]
+            [Label Count: 7]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 4365]
+    [Time: 0.049564000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   4374 22.583745      192.168.38.104        ec2-18-217-1-57.us-east-2.compute.amazonaws.com DNS      105    Standard query 0x7418 A fQ==.reddshrimpandherring.com.windomain.local
+
+Frame 4374: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5), Dst: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41)
+Internet Protocol Version 4, Src: 192.168.38.104 (192.168.38.104), Dst: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 91
+    Identification: 0xc62d (50733)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 192.168.38.104 (192.168.38.104)
+    Destination Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+User Datagram Protocol, Src Port: 49671, Dst Port: 53
+    Source Port: 49671
+    Destination Port: 53
+    Length: 71
+    Checksum: 0xfb7a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 756]
+    [Timestamps]
+    UDP payload (63 bytes)
+Domain Name System (query)
+    Transaction ID: 0x7418
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: fQ==.reddshrimpandherring.com.windomain.local
+            [Name Length: 45]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 4376]
+
+No.     Time           Source                Destination           Protocol Length Info
+   4376 22.633047      ec2-18-217-1-57.us-east-2.compute.amazonaws.com 192.168.38.104        DNS      180    Standard query response 0x7418 No such name A fQ==.reddshrimpandherring.com.windomain.local SOA a.root-servers.net
+
+Frame 4376: 180 bytes on wire (1440 bits), 180 bytes captured (1440 bits) on interface \Device\NPF_{EE54A6A6-8BD8-498A-995A-DE0B78012FBE}, id 0
+Ethernet II, Src: 02:fb:68:4c:e9:41 (02:fb:68:4c:e9:41), Dst: MS-NLB-PhysServer-32_1b:c6:1a:ae:f5 (02:3b:c6:1a:ae:f5)
+Internet Protocol Version 4, Src: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57), Dst: 192.168.38.104 (192.168.38.104)
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 166
+    Identification: 0x3ee9 (16105)
+    Flags: 0x00
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 36
+    Protocol: UDP (17)
+    Header Checksum: 0x5c3c [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: ec2-18-217-1-57.us-east-2.compute.amazonaws.com (18.217.1.57)
+    Destination Address: 192.168.38.104 (192.168.38.104)
+User Datagram Protocol, Src Port: 53, Dst Port: 49671
+    Source Port: 53
+    Destination Port: 49671
+    Length: 146
+    Checksum: 0x80dd [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 756]
+    [Timestamps]
+    UDP payload (138 bytes)
+Domain Name System (response)
+    Transaction ID: 0x7418
+    Flags: 0x8183 Standard query response, No such name
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        fQ==.reddshrimpandherring.com.windomain.local: type A, class IN
+            Name: fQ==.reddshrimpandherring.com.windomain.local
+            [Name Length: 45]
+            [Label Count: 5]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Authoritative nameservers
+    [Request In: 4374]
+    [Time: 0.049302000 seconds]
