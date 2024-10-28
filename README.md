@@ -13,6 +13,7 @@ Repository containing my solutions and progress on the [picoCTF](https://play.pi
 - [x] The numbers
 - [x] interencdec
 - [x] Hide to see
+- [x] Mind your Ps and Qs
 - [ ] Custom encryption
 - [ ] b00tl3gRSA2
 
