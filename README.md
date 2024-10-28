@@ -1,5 +1,5 @@
 # picoCTF
-[profile](https://play.picoctf.org/users/hocnguyen12)
+[Profile](https://play.picoctf.org/users/hocnguyen12)
 
 Repository containing my solutions and progress on the [picoCTF](https://play.picoctf.org/) platform.
 
