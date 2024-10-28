@@ -11,7 +11,7 @@ DNS requests are made to a particular domain `reddshrimpandherring.com`.
 
 By filtering with `dns && ip.addr == 18.217.1.57`, we get :
 
-![[capture.png]]
+![image](capture.png)
 
 To extract data i used `File > Export Packet Dissections > As Plain Text` to get `shark2_dns_domain.txt`.
 
