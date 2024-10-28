@@ -10,8 +10,11 @@ Repository containing my solutions and progress on the [picoCTF](https://play.pi
 - [x] SuperSSH
 
 ## Cryptography
-- [ ] b00tl3gRSA2
+- [x] The numbers
+- [x] interencdec
+- [x] Hide to see
 - [ ] Custom encryption
+- [ ] b00tl3gRSA2
 
 ## Forencics
 - [x] St3g0
