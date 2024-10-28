@@ -5,22 +5,29 @@ Repository containing my solutions and progress on the [picoCTF](https://play.pi
 
 <img src="img/proxy-image.png" alt="logo" width="400"/>
 
+## General Skills
+- [x] binhexa
+- [x] SuperSSH
 
-## Hard
+## Cryptography
 - [ ] b00tl3gRSA2
-
-## Medium
-- [x] Wireshark doo dooo do doo...
-- [x] Wireshark twoo twooo two twoo...
 - [ ] Custom encryption
 
-## Easy
+## Forencics
+- [x] St3g0
+- [x] Wireshark doo dooo do doo...
+- [x] Wireshark twoo twooo two twoo...
 - [x] Verify
-- [x] WebDecode
-- [x] SuperSSH
-- [x] Unminify
 - [x] Secret of the Polyglot
+
+## Reverse Engineering
+
+## Web Exploitation
+- [x] Secrets
 - [x] Bookmarklet
-- [x] binhexa
+- [x] Unminify
+- [x] WebDecode
+
+## Binary Exploitation
 
 
