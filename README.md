@@ -1,8 +1,10 @@
 # picoCTF
+[profile](https://play.picoctf.org/users/hocnguyen12)
 
 Repository containing my solutions and progress on the [picoCTF](https://play.picoctf.org/) platform.
 
 <img src="img/proxy-image.png" alt="logo" width="400"/>
+
 
 ## Hard
 - [ ] b00tl3gRSA2
