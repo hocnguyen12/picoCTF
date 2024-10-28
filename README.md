@@ -4,7 +4,7 @@ Repository containing my solutions and progress on the [picoCTF](https://play.pi
 
 ![image](img/proxy-image.png)
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="img/proxy-image.png" alt="logo" width="200"/>
 
 
 ## Hard
