@@ -16,6 +16,7 @@ Repository containing my solutions and progress on the [picoCTF](https://play.pi
 - [x] Mind your Ps and Qs
 - [x] ReadMyCert
 - [x] basic-mod1
+- [x] basic-mod2
 - [ ] Custom encryption
 - [ ] b00tl3gRSA2
 
